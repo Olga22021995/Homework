@@ -5,64 +5,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Awesome markup</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        <a href="">
-            <img src="./assets/image/Logo.svg" alt="">
+        <a href="logo">
+            <img class="logo-img" src="./assets/image/Logo.svg" alt="image">
         </a>
-        <ul>
-            <li>
-                <a href="">Main</a>
+        <ul class="menu">
+            <li menu-item>
+                <a href="" class="menu-link">Main</a>
             </li>
-            <li>
-                <a href="">Rates</a>
+            <li menu-item>
+                <a href="" class="menu-link">Rates</a>
             </li>
-            <li>
-                <a href="">Create Account</a>
+            <li menu-item>
+                <a href="" class="menu-link">Create Account</a>
             </li>
         </ul>
     </header>
-    <section>
-        <h1>Markup achievement</h1>
-        <p>The harder you work something? the greater you’ll feel when you achieve it.</p>
-        <button>Learn More</button>
-        <img src="./assets/image/image(1).png" alt="">
+
+    <section class="main">
+        <h1 class="main-title">Markup achievement</h1>
+        <p class="text">The harder you work something? the greater you’ll feel when you achieve it.</p>
+        <button class="button">Learn More</button>
+        <img class="main-img" src="./assets/image/image1.png" alt="imaige1">
     </section>
-    <section>
-        <h2>Rates</h2>
-        <p>Failure will never overtake me if my determination to succeed is strong enough.</p>
-        <table>
+    
+    <section class="rates-section">
+        <h2 class="title">Rates</h2>
+        <p class="text">Failure will never overtake me if my determination to succeed is strong enough.</p>
+        <table class="table">
             <tr>
-                <th>Features</th>
-                <td>Standart</td>
-                <td>Plus</td>
-                <td>PRO</td>
+                <th class="table-subtitle">Features</th>
+                <th class="table title">Standart</th>
+                <th class="table-title">Plus</th>
+                <th class="table-title">PRO</th>
             </tr>
             <tr>
-                <th>Theory</th>
+                <th class="table-subtitle">Theory</th>
                 <td><img src="./assets/image/Check.svg" alt=""></td>
                 <td><img src="./assets/image/Check.svg" alt=""></td>
                 <td><img src="./assets/image/Check.svg" alt=""></td>
             </tr>
             <tr>
-                <th>Practice</th>
+                <th class="table-subtitle">Practice</th>
                 <td><img src="./assets/image/Close.png" alt=""></td>
                 <td><img src="./assets/image/Check.svg" alt=""></td>
                 <td><img src="./assets/image/Check.svg" alt=""></td>
             </tr>
             <tr>
-                <th>Code rewiev</th>
+                <th class="table-subtitle">Code rewiev</th>
                 <td><img src="./assets/image/Close.png" alt=""></td>
                 <td><img src="./assets/image/Close.png" alt=""></td>
                 <td><img src="./assets/image/Check.svg" alt=""></td>
             </tr>
             <tr>
-                <th><a href="">Have questions?</a></th>
-                <td><button>get now</button></td>
-                <td><button>get now</button></td>
-                <td><button>get now</button></td>
+                <th class="table-subtitle"><a href="" class="table-link">Have questions?</a></th>
+                <td><button class="table-button">get now</button></td>
+                <td><button class="table-button">get now</button></td>
+                <td><button class="table-button">get now</button></td>
             </tr>
         </table>
     </section>

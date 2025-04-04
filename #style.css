@@ -1,0 +1,100 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+}
+
+.header {
+    background-color: #0a61f7;
+    height: 76px;
+}
+
+.menu-link {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.main-title {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 68px;
+    color: #363940;
+    margin-bottom: 30px;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #95a1bb;
+    margin-bottom: 40px;
+}
+
+.button {
+    width: 152px;
+    height: 50px;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19.6px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    background: #0a61f7;
+    color: #fff;
+}
+
+.rates-section {
+    background: #f9fafc;
+    padding: 100px;
+}
+.title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 43px;
+    color: #363940;
+}
+
+.table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #95A1BB;
+    width: 240px;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.table-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #363940;
+}
+
+.table-subtitle {
+    
+}
