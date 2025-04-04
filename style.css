@@ -23,9 +23,24 @@ button {
     background-color: transparent;
 }
 
+.title {
+    color: #363940;
+    font-size: 32px;
+    font-weight: 500px;
+    line-height: 43px;
+}
+
+.text {
+    color: #95A1BB;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 22px;
+
+}
+
 .header {
     background-color: #0a61f7;
-    height: 76px;
+    padding: 14px 0;
 }
 
 .menu-link {
@@ -46,10 +61,6 @@ button {
 }
 
 .text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
-    color: #95a1bb;
     margin-bottom: 40px;
 }
 
@@ -68,8 +79,9 @@ button {
 
 .rates-section {
     background: #f9fafc;
-    padding: 100px;
+    padding: 100px 0;
 }
+
 .title {
     font-weight: 500;
     font-size: 32px;
@@ -93,8 +105,4 @@ th, td {
     font-size: 18px;
     line-height: 22px;
     color: #363940;
-}
-
-.table-subtitle {
-    
 }
