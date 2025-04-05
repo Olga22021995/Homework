@@ -82,11 +82,12 @@ button {
     padding: 100px 0;
 }
 
-.title {
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 43px;
-    color: #363940;
+.rates-section .title {
+    margin-bottom: 20px;
+}
+
+.rates-section .text{
+margin-bottom: 40px;
 }
 
 .table {
@@ -105,4 +106,123 @@ th, td {
     font-size: 18px;
     line-height: 22px;
     color: #363940;
+}
+
+.table-subtitle {
+    font-weight: 400;
+    font-size: 14px; 
+    line-height: 22px;
+    color: #363940;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.table-subtitle.gray {
+    color: #95A1BB;
+}
+
+.table-link {
+    color: #0a61f7;
+}
+ 
+.table-button {
+    width: 140px;
+    padding: 8px 0;
+    border-radius: 4px;
+    border: 1px solid #0a61f7;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #0a61f7;
+}
+
+.table-button.active {
+    background: #0a61f7;
+    color: #fff;
+}
+
+.table-footer td {
+    padding: 30px 0;
+}
+
+.create-account-section {
+    padding: 100px;
+}
+
+.create-account-section .title {
+    margin-bottom: 50px;
+}
+
+.create-account-section .text {
+    margin-bottom: 40px;
+    max-width: 500px;
+}
+
+.list-itme {
+    list-style-image: url(./assets/image/Check.svg);
+    margin-left: 30px;
+    margin-bottom: 15px;
+    color: #363940;
+}
+
+input, select, fieldset, textarea {
+border-radius: 4px;
+border: 1px solid #95A1BB;
+padding: 14px 15px;
+}
+
+input, select, fieldset, textarea, label, legend, input::placeholder, select::placeholder, textarea::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #95a1bb;
+    font-family: inherit;
+}
+
+input[type="text"] {
+    width: 100%;
+}
+
+input[type="email"], input[type="password"], input[type="date"], select {
+    width: 230px;
+    height: 50px;
+} 
+
+fieldset {
+    width: 100%;
+    padding: 30px 15px;
+}
+
+textarea {
+    width: 100%;
+    min-height: 80px;
+    resize: none;
+}
+
+form .button {
+    width: 100%;
+}
+
+select {
+    background: url(./assets/image/Arrow-down.svg) no-repeat right 15px top 50%;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background: url(./assets/image/Calendar.svg) no-repeat;
+}
+
+.rooter {
+   background-color: #0a61f7;
+   text-align: center;
+   padding: 20px 0;
+}
+
+small {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #fff;
 }
